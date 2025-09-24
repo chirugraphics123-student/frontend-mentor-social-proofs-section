@@ -8,7 +8,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ## 🔗 Links
 
-- [Live Site URL]: https://chirugraphics123-student.github.io/frontend-mentor-social-proofs-section/
+- Live Site URL: https://chirugraphics123-student.github.io/frontend-mentor-social-proofs-section/
 
 ---
 
