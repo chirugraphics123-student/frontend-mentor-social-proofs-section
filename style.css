@@ -9,8 +9,19 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
+body{
+    transition: all 0.25s ease-in;
+}
+button{
+    width:50px;
+    align-self: flex-end;
+    background-color: #121212;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
 
 .container {
+    transition: all 0.25s ease-in;
     height: 100vh;
     max-height: 200vh;
     display: flex;
@@ -24,6 +35,9 @@
     display: flex;
     justify-content: space-between;
     height: 40%;
+}
+.box1 .reviews{
+    transition: all 0.75s ease-in;
 }
 
 .box1 .text {
@@ -67,6 +81,7 @@
 }
 
 .box1 span:nth-child(1) {
+    color:#502050;
     font-size: 2.75rem;
     font-weight: bold;
     line-height: 42px;
@@ -141,13 +156,32 @@
     color: rgb(190, 1, 190);
     font-weight: 400;
 }
+body.darkmode{
+    background-color: #121212;
+}
+body.darkmode .box1 span:nth-child(1){
+    color: #E0E0E0;
+}
+body.darkmode .box1 span:nth-child(2){
+    color: #B3B3B3;
+}
+body.darkmode .box2 .feedback{
+    background-color: rgb(47, 47, 47);
+}
+body.darkmode .reviews p{
+    background-color: #969497;
+    color: white;
+}
+body.darkmode .reviews img{
+    filter: drop-shadow(0px 0px 12px yellow);
+}
 
 @media (max-width:768px) {
     
 
     .container {
         width: 90vw;
-        height: 130vh;
+        height: auto;
     }
 
     .box1 {
