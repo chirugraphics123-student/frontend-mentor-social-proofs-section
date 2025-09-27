@@ -17,7 +17,7 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 - Semantic **HTML5** markup  
 - **CSS3** custom properties  
 - **Flexbox**  
-
+-Added Dark mode using JS
 ---
 
 ## 🚀 Features
